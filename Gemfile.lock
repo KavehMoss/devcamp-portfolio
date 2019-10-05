@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/KavehMoss/devcamp_view_tool
-  revision: e82aae157a300e8794ccd852ac5a07886da1ec93
-  specs:
-    devcamp_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,6 +64,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    devcamp_kaveh_view_tool (0.1.0)
     devise (4.6.2)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -209,7 +204,7 @@ DEPENDENCIES
   bootstrap (~> 4.3.1)
   byebug
   coffee-rails (~> 4.2)
-  devcamp_view_tool!
+  devcamp_kaveh_view_tool (~> 0.1.0)
   devise (~> 4.6, >= 4.6.2)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
