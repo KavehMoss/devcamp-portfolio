@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem "puma", ">= 3.12.4"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -50,8 +50,14 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-
+gem "actionview", ">= 5.2.4.2"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "activesupport", ">= 5.2.4.3"
+gem "rack", ">= 2.0.8"
+gem "actionpack", ">= 5.2.4.3"
+gem "activestorage", ">= 5.2.4.3"
+gem "websocket-extensions", ">= 0.1.5"
+gem "nokogiri", ">= 1.10.8"
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.6', '>= 4.6.2'
@@ -60,7 +66,7 @@ gem 'jquery-rails'
 gem 'devcamp_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
-gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem "kaminari", ">= 1.2.1"
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'remotipart'
 gem 'carrierwave'
